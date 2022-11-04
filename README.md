@@ -1,2 +1,7 @@
 # SiteDoRestart
-Treinando Front-End enquanto espero uma boa empresa me contratar por R$ 2.500.
+
+Como ainda estou desempregado e gosto muito de programar, 
+fico muitas horas na frente do notebook estudando e programando
+na w3schools ou na DankiCode porém publico apenas o final do projeto
+um grande amigo que conheci no linkedIn o william disse que os recrutadores
+gostam de um trabalho cronologico e bem aqui estou.
