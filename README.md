@@ -3,7 +3,7 @@
 <img width="734" height="413" src="https://raphael-rfa.github.io/SiteDoRestart/imagens/img-hero.jpg">
 
 # 😅 Por quê um site do RESTART ?
-Porque sim, esse site foi feito na intenção de mostrar minhas habilidades no Front-End construindo do zero o site em um dia, então pouco importa de quem é o seu importa se você acha que o resultado ficou bom ou ruim. Fui fazendo o site por sessão e assim que terminado o layout o conteúdo e o resosnsivo eu fazia o commit para o GitHub e a publicação no LinkedIn.
+Porque sim, esse site foi feito na intenção de mostrar minhas habilidades no Front-End construindo do zero o site em um dia, então pouco importa de quem é o site importa se você acha que o resultado ficou bom ou ruim. <a href="https://raphael-rfa.github.io/SiteDoRestart/">Link do site .</a> Fui fazendo o site por sessão e assim que terminado o layout o conteúdo e o resosnsivo eu fazia o commit para o GitHub e a publicação no LinkedIn.
 
 # Sobre o site :
 O site contem 4 sessões: 
