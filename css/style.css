@@ -19,6 +19,7 @@ html, body {
     justify-content: center;
     list-style-type: none;
     background-color: rgba(000, 000, 000, 0.4);
+    z-index: 3;
 }
 
 .txt-nav {
@@ -46,11 +47,11 @@ html, body {
     text-decoration: none;
     color: white;
     font-weight: 500;
+    transition: 0.9s;
 }
 
-[class^=navbar] a:hover {
-    font-size: 20px;
-    transition: 0.2s;
+[class^=navbar] li:hover {
+    transform: scale(1.3);
 }
 
 .menu-mobile {
@@ -79,10 +80,15 @@ html, body {
     width: 100%;
     height: 800px;
     background-color:#000000;
-    background-image: url("../imagens/img-hero.jpg");
-    background-size: 1200px 100%;
-    background-repeat: no-repeat;
-    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img{
+    width: 1200px;
+    height: 776px;
+    overflow: hidden;
 }
 
 .txt-s2 {
@@ -114,8 +120,13 @@ html, body {
 .imgperfil-s2 {
     width: 140px;
     height: 150px;
-    background-color: darkorange;
     border-radius: 5px;
+}
+
+.imgperfil-s2:hover {
+    transform: scale(1.2);
+    border-radius: 5px;
+    transition: 0.2s;
 }
 
 .txtperfil-s2 {
@@ -151,6 +162,17 @@ html, body {
     border: 1px solid lightgray;
     color: #000000;
     text-align: left;
+}
+
+.mes-s4:hover {
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+}
+
+.mes-s4:hover span{
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .galeria-s3 {
@@ -195,11 +217,11 @@ html, body {
     margin:10px;
     padding: 10px;
     color: white;
+    transition: 0.2s;
 }
 
 .txtgaleria-s3 a:hover {
     background-color: darkorange;
-    transition: 0.2s;
 }
 
 .sessao4 {
@@ -252,6 +274,14 @@ input[type=submit] {
     color: white;
 }
 
+input[type=submit]:hover {
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: darkorange;
+    transition: 0.3s;
+}
+
 .background-antes-footer {
     width: 100%;
     height: 400px;
@@ -276,6 +306,7 @@ footer {
 
     .menu-mobile {
         display: block;
+        z-index: 2;
     }
 
     .txt-nav {
@@ -323,5 +354,31 @@ footer {
     .txt-nav {
         font-size: 26px;
     }
+}
 
+.img1 {
+    width: 1200px;
+    overflow: hidden;
+    background-image: url(../imagens/img-hero1.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.img1 img{
+    object-fit: cover;
+    width: 1200px;
+    overflow: hidden;
+    height: 100%;
+    animation-name: um;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    transition: 1s;
+}
+
+@keyframes um {
+    0% {opacity: 1;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
 }
